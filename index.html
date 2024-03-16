@@ -10,15 +10,15 @@
 <body>
     <header>
         <nav>
-            <ul class="nav justify-content-end">
+            <ul class="nav justify-content-end nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Galería</a>
+                    <a class="nav-link disabled" href="#">Galería</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
@@ -28,68 +28,78 @@
     </header>
     <article>
         <div class="container">
-            <h1>Mi página con Bootstrap</h1>
-            <p>Bootstrap es un framework front-end utilizado para desarrollar aplicaciones web y sitios mobile first, o sea, con un layout que se adapta a la pantalla del dispositivo utilizado por el usuario.</p>
+            <h1>Gatos</h1>
+            <p>Los hay muchos tipos de gatos en el mundo. Gatos de todos los colores, modelos y sabores. Los gatos son criaturas tranquilas o revoltosas, dependiendo enteramente del estilo que tengan. Aún así, es posible determinar el tipo de gato debido a su color.</p>
+            <p>Hay gatos sumamente conocidos que también cumplen con las distintas características que ofrecen sus colores.</p>
+            <p>Los 9 gatos más populares en el Internet moderno, al menos en lo que a un servidor respecta, organizados por color:</p>
             <table class="table">
+                <caption>Tabla comparativa de gatos hasta ahora</caption>
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Paterno</th>
-                        <th scope="col">Materno</th>
+                        <th scope="col">Negro</th>
+                        <th scope="col">Blanco</th>
+                        <th scope="col">Naranja</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Luis</td>
-                        <td>Ramos</td>
-                        <td>Gómez</td>
+                        <td>Maxwell</td>
+                        <td>Kotaro</td>
+                        <td>Mr. Fresh</td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>María</td>
-                        <td>Castro</td>
-                        <td>Lope</td>
+                        <td>Burger</td>
+                        <td>Beluga</td>
+                        <td>Floppa</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td>Carlos</td>
-                        <td>Sánchez</td>
-                        <td>Díaz</td>
+                        <td>Apocosi</td>
+                        <td>Box Cat</td>
+                        <td>Ceja</td>
                     </tr>
                 </tbody>
             </table>
+            <h4>Obtén más información sobre cada tipo de gato:</h4>
             <div class="row">
                 <div class="col-4">
                     <div class="card-body">
-                        <h5 class="card-title">Compiladores</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtítulo</h6>
-                        <p class="card-text">Texto.</p>
-                        <a href="#" class="card-link">Link 1</a>
+                        <img src="assets/img/gatonegro.jpeg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Negro</h5>
+                        
+                        <h6 class="card-subtitle mb-2 text-muted">Un verdadero clásico</h6>
+                        <p class="card-text">Los gatos negros son de un color gracioso y suelen tener una preferencia a la noche, al pollo y a obtener objetos para sí mismos.</p>
+                        <a href="https://es.wikipedia.org/wiki/Gato_negro" class="card-link">Gato negro</a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card-body">
-                        <h5 class="card-title">Compiladores</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtítulo</h6>
-                        <p class="card-text">Texto.</p>
-                        <a href="#" class="card-link">Link 1</a>
+                        <img src="assets/img/beluga.png" class="card-img-top" alt="...">
+                        <h5 class="card-title">Blanco</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Los más refinados</h6>
+                        <p class="card-text">Símbolos de limpieza, gracias a que las manchas se les notan más. Maúllan sin razón o no lo hacen, sin punto medio.</p>
+                        <a href="https://www.rover.com/es/blog/gatos-blancos/" class="card-link">Gatos blancos</a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card-body">
-                        <h5 class="card-title">Compiladores</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Subtítulo</h6>
-                        <p class="card-text">Texto.</p>
-                        <a href="#" class="card-link">Link 1</a>
+                        <img src="assets/img/gatonaranja.jpeg" class="card-img-top" alt="...">
+                        <h5 class="card-title">Naranja</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">kato 🐈</h6>
+                        <p class="card-text">Son gatos aparentemente y son naranjas. <br> ??? <br> Comparten una sola neurona entre todos.</p>
+                        <a href="https://youtu.be/j5a0jTc9S10" class="card-link">Gato naranja</a>
                     </div>
                 </div>
             </div>
         </div>
     </article>
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© 2024 <a href="https://github.com/ponystation4">pst4@github</a></span>
+        </div>
     </footer>
 </body>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>

@@ -1,10 +1,62 @@
 *{
     padding: 0;
     margin: 0;
+    color: white;
 }
 article{
-    background-color: rgb(199, 247, 247);
+    background-color: rgb(74, 80, 90);
+    min-height: 100vh;
 }
 nav{
     background-color: rgb(226, 226, 226);
 }
+
+div a{
+    text-decoration: none;
+}
+
+h1{
+    padding-top: 2%;
+}
+div p{
+    padding-top: 2%;
+}
+.col-4{
+    padding-top:2%;
+}
+img{
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-width: 50px;
+    min-height: 50px;
+    width: 100%;
+    height: auto;
+    max-height: auto;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  body{
+    padding-bottom: 2%;
+  }
+  footer{
+    height: 4%;
+  }
+  .container{
+    padding-top: 0.8%;
+  }
+  .row{
+    padding-bottom: 5%;
+  }
+  h5{
+    padding-top: 10%;
+  }
